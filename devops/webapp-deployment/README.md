@@ -24,7 +24,8 @@ Built a fully automated CI/CD pipeline using AWS services to deploy a Java web a
 - Created IAM user: Mark-IAM-Admin
 - Assigned AdministratorAccess
 - Created custom IAM policy for CodeArtifact:
-<details>
+
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -49,7 +50,7 @@ Built a fully automated CI/CD pipeline using AWS services to deploy a Java web a
     }
   ]
 }
-</details>
+```
 - Attached policy to EC2 role for artifact access
 
 # 2. EC2 Instance Setup
@@ -147,7 +148,8 @@ Created scripts for:
 5. Using infrastructure as code with CloudFormation
 6. End-to-end deployment automation
 
-📂 Repository Structure
+## 📂 Repository Structure
+```
 /app-source
 /scripts
   install.sh
@@ -156,3 +158,4 @@ Created scripts for:
 buildspec.yml
 appspec.yml
 README.md
+```

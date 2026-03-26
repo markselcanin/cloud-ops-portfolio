@@ -3,7 +3,7 @@
 Built a fully automated CI/CD pipeline using AWS services to deploy a Java web application from source to production.
 
 ## 🏗️ Architecture Overview
-![Architecture Diagram] (webapp-deployment/Six Day DevOps Challenge Diagram.drawio.png)
+![Architecture Diagram](Six Day DevOps Challenge Diagram.drawio.png)
 
 
 ## 🧠 What This Project Does
@@ -128,9 +128,9 @@ Created scripts for:
 
 ✅ Website fully operational
 
-![EC2 Setup](webapp-deployment/ec2.png)
-![Pipeline Success](webapp-deployment/pipeline.png)
-![Website Running](webapp-deployment/webapp.png)
+![EC2 Setup](webapp-deployment/ec2.PNG)
+![Pipeline Success](webapp-deployment/pipeline.PNG)
+![Website Running](webapp-deployment/webapp.PNG)
 
 🔄 CI/CD Pipeline Flow
 1. Developer pushes code → GitHub

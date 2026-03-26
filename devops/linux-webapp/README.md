@@ -60,8 +60,8 @@ curl http://localhost
 
 ✅ Website fully operational
 
-![Curl Test Result](curl.png)
-![Pipeline Success](ecomsite.png)
+![Curl Test Result](curl.PNG)
+![Pipeline Success](ecomsite.PNG)
 
 # ⚠️ Challenges & Fixes
 - ❌ Database connection issues

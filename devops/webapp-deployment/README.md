@@ -128,9 +128,9 @@ Created scripts for:
 
 ✅ Website fully operational
 
-![EC2 Setup](webapp-deployment/ec2.PNG)
-![Pipeline Success](webapp-deployment/pipeline.PNG)
-![Website Running](webapp-deployment/webapp.PNG)
+![EC2 Setup](ec2.PNG)
+![Pipeline Success](pipeline.PNG)
+![Website Running](webapp.PNG)
 
 🔄 CI/CD Pipeline Flow
 1. Developer pushes code → GitHub

@@ -60,8 +60,8 @@ curl http://localhost
 
 ✅ Website fully operational
 
-![Curl Test Result](cloud-ops-portfolio/devops/linux-webapp/curl.png)
-![Pipeline Success](cloud-ops-portfolio/devops/linux-webapp//ecom site.png)
+![Curl Test Result](curl.png)
+![Pipeline Success](ecomsite.png)
 
 # ⚠️ Challenges & Fixes
 - ❌ Database connection issues

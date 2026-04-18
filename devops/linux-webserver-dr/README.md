@@ -20,36 +20,45 @@ Tools: tar, systemctl, cat, rm
 
 # ⚙️ Deployment Steps
 1. Install and Start Nginx
+
 '''
 sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 '''
 
-2. Create Critical Web Content
+3. Create Critical Web Content
+
 '''
 sudo vi /var/www/html/index.html
+
 '''
+
 Add:
+
 '''
 Critical Web Content
 '''
 
-3. Create Backup Archive
+5. Create Backup Archive
+   
 '''
 sudo tar -czvf /home/labex/backup.tar.gz /var/www/html
 '''
 
 Validate Backup Contents
+
 '''
 tar -ztf /home/labex/backup.tar.gz
 '''
 
 # 💥 Disaster Simulation
 5. Simuylate Data Loss
+   
 '''
 sudo rm -r /var/www/html
 '''
+
 This represents:
 
 - Accidental deletion
@@ -58,11 +67,13 @@ This represents:
 
 # ♻️ Recovery Process
 6. Restore from Backup
+   
 '''
 sudo tar -xf /home/labex/backup.tar.gz -C /
 '''
 
-7. Verify  Restoration
+8. Verify  Restoration
+   
 '''
 cat /var/www/html/index.html
 '''

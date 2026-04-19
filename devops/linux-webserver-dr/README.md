@@ -47,7 +47,7 @@ tar -ztf /home/labex/backup.tar.gz
 ```
 
 # 💥 Disaster Simulation
-5. Simuylate Data Loss  
+5. Simulate Data Loss  
 ```
 sudo rm -r /var/www/html
 ```

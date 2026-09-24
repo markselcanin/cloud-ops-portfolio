@@ -26,7 +26,7 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
-3. Create Critical Web Content
+2. Create Critical Web Content
 ```
 sudo vi /var/www/html/index.html
 ```
@@ -36,7 +36,7 @@ Add:
 Critical Web Content
 ```
 
-5. Create Backup Archive
+3. Create Backup Archive
 ```
 sudo tar -czvf /home/labex/backup.tar.gz /var/www/html
 ```
@@ -47,7 +47,7 @@ tar -ztf /home/labex/backup.tar.gz
 ```
 
 # 💥 Disaster Simulation
-5. Simulate Data Loss  
+4. Simulate Data Loss  
 ```
 sudo rm -r /var/www/html
 ```
@@ -59,12 +59,12 @@ This represents:
 - System compromise
 
 # ♻️ Recovery Process
-6. Restore from Backup  
+5. Restore from Backup  
 ```
 sudo tar -xf /home/labex/backup.tar.gz -C /
 ```
 
-8. Verify  Restoration 
+6. Verify  Restoration 
 ```
 cat /var/www/html/index.html
 ```
